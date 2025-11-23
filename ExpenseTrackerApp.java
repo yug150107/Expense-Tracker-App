@@ -67,7 +67,7 @@ class Expense {
         this.date = LocalDate.now();
     }
     
-    // Getters
+    
     public int getExpenseId() { return expenseId; }
     public String getDescription() { return description; }
     public double getAmount() { return amount; }
@@ -75,7 +75,7 @@ class Expense {
     public PaymentMethod getPaymentMethod() { return paymentMethod; }
     public LocalDate getDate() { return date; }
     
-    // Setters
+    
     public void setDescription(String description) { this.description = description; }
     public void setAmount(double amount) throws InvalidAmountException {
         if (amount <= 0) {
@@ -589,4 +589,5 @@ public class ExpenseTrackerApp {
             System.out.println("✗ Expense not found!");
         }
     }
+
 }
