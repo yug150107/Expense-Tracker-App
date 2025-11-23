@@ -30,7 +30,7 @@ A console-based Java Personal Expense Tracker that lets users add, view, delete,
    ```bash
    javac ExpenseTrackerApp.java
 
-##Screenshots
+## Screenshot
 
 https://github.com/yug150107/Expense-Tracker-App/tree/main/Project%20Screenshots
 
